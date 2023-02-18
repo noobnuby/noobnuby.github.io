@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>noobnuby's profile</title>
+        <script defer src="index.js"></script>
+        <link href="style.css" rel="stylesheet" />
+        <link rel="icon" href="./favicon.ico" />
+        <script
+            src="https://kit.fontawesome.com/4e86c6de6f.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body
+        oncontextmenu="return false"
+        ondragstart="return false"
+        onselectstart="return false"
+    >
+        <article>
+            <header>
+                <nav id="nav">
+                    <img id="nav_img" src="./img/img.png" />
+                    <ul id="nav_links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about_me">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#link">Link</a></li>
+                    </ul>
+                </nav>
+                <div id="home"></div>
+                <img
+                    class="hidden img"
+                    src="./img/img.png"
+                    onclick="easteregg()"
+                />
+                <div id="site_top_name" class="hidden">
+                    <span>noobnuby</span>
+                </div>  
+                <div id="hi" class="hidden">
+                    <h1>제 프로필 사이트에 오신것을 환영합니다.</h1>
+                    <h1>
+                        (첨 만든 사이트이므로 퀄리티가 다소 낮을 수 있습니다.)
+                    </h1>
+                    <h2>(또한 귀차니즘으로 인한 모바일 지원 X)</h2>
+                </div>
+            </header>
+            <div id="about_css" class="hidden">
+                <div id="about_me"></div>
+                <h1>안녕하세요 뉴비라고 합니다.</h1>
+                <h1>저는 코딩을 좋아하고요</h1>
+                <h1>여러 코딩언어에 관심이 많습니다</h1>
+                <h1>닉이 뉴비인만큼 코딩도 뉴비에요 ^^</h1>
+                <h1>
+                    모르는게 많고 호기심이 많아 질문을 많이 할 수도 있어요 :)
+                </h1>
+                <h1>(양해 부탁드립니다.)</h1>
+            </div>
+            <div id="skill_css">
+                <div id="skills"></div>
+                <h1 class="hidden">제가 현재 쓸 수 있는 언어에요</h1>
+                <div id="skill_img_css" class="hiddenImg">
+                    <div class="skillHidden skillBox one">
+                        <img class="skillImg" src="./img/python.png" />
+                    </div>
+                    <div class="skillHidden skillBox two">
+                        <img class="skillImg" src="./img/java.png" />
+                    </div>
+                    <div class="skillHidden skillBox three">
+                        <img class="skillImg" src="./img/C.png" />
+                    </div>
+                    <div class="skillHidden skillBox four">
+                        <img class="skillImg" src="./img/c-sharp.png" />
+                    </div>
+                    <div class="skillHidden skillBox five">
+                        <img class="skillImg" src="./img/html.png" />
+                    </div>
+                    <div class="skillHidden skillBox six">
+                        <img class="skillImg" src="./img/css.png" />
+                    </div>
+                    <div class="skillHidden skillBox seven">
+                        <img class="skillImg" src="./img/js.png" />
+                    </div>
+                </div>
+                <h3 class="hidden">
+                    (참고로 html과 css는 프로그래밍 언어가 아니지만 그냥
+                    넣어봤어요 ㅎㅎ)
+                </h3>
+            </div>
+            <div id="link_css" class="hidden">
+                <h1>제 소셜 링크에요</h1>
+                <h3>(마우스 커서를 위에 올리거나 클릭해보세요)</h3>
+                <div id="link_icon_css" class="hidden">
+                    <div class="link">
+                        <span id="hover" class="hover_ github_hover">NOOBNUBY</span>
+                        <i class="fa-brands fa-github" onclick="githubLink()"></i>
+                    </div>
+                    <div class="link">
+                        <span id="hover" class="hover_">뉴비#4186</span>
+                        <i class="fa-brands fa-discord" onclick="discordLink()"></i>
+                    </div>
+                    <div class="link">
+                        <span id="hover"class="hover_">me@noobnuby.com</span>
+                        <i class="fa-solid fa-envelope" onclick="emailLink()"></i>
+                    </div>
+                </div>
+                <div id="link"></div>
+            </div>
+
+            <footer>
+                <p id="copyright">
+                    &#169; Copyright 2023 noobnuby. All Rights Reserved.
+                </p>
+            </footer>
+        </article>
+    </body>
+</html>
