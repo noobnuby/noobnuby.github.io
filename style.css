@@ -243,21 +243,3 @@ body::-webkit-scrollbar-thumb {
     transform: translateX(0);
     opacity: 1;
 }
-
-@media (max-width: 767px) {
-    body {
-        font-size: x-small;
-    }
-    .skillImg {
-        display: flex;
-        justify-content: center;
-        padding: 40px;
-        height: 40px;
-        width: 40px;
-    }
-    .skillImg {
-        padding: 6px;
-        height: 50px;
-        width: 50px;
-    }
-}
